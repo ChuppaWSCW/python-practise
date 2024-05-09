@@ -5,7 +5,7 @@ username = input("What's your name?")
 
 # Greet the user and introduce the quiz
 print("Welcome user to the quiz", username)
-
+QUESTION_FORMAT = "{}\nA. {}  B. {} C. {} D. {}" 
 # Ask the user a question
 answer = input("What is the color of the ocean").upper()
 if answer == "Blue".upper():
@@ -24,4 +24,7 @@ print("Thank you for playing")
 
 
 
-print("Your Score is",score)
+print("Well done {}. You finished the quiz. Your final score was {}").format(username, score)
+
+
+
