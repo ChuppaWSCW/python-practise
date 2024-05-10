@@ -26,5 +26,5 @@ print("Thank you for playing")
 
 print("Well done {}. You finished the quiz. Your final score was {}").format(username, score)
 
-
+if answer == "Blue" or answer == "Grey":
 
