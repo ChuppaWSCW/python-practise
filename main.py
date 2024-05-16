@@ -29,3 +29,6 @@ while play == "yes":
     play = input("Do you want to play again?").lower()
 
 print("Goodbye")
+
+tries = int(input("How many attempts do you want at each question? 1-4"))
+tries = int(tries) 
